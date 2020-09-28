@@ -1,0 +1,22 @@
+import pandas as pd
+#reading the file
+File = pd.read_csv('filename.csv')
+File (to check the data)
+
+#Printing the first 5 rows
+File.head()
+#Printing the last 5 rows
+File.tail()
+#To describe any dataset
+File.describe()
+#To check the complete information of the file
+File.info()
+#To check the shape of the dataset
+File.shape
+#To get only columns from the dataset
+File.columns()
+#Indexing
+File.iloc[:,:]
+
+#To visualise the data through Histogram
+File.<Column name>.hist()
